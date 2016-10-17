@@ -1,9 +1,12 @@
 <?php
 
+namespace NumToText;
+
+
 class NumToText
 {
-   var $Mant = array('', '', ''); 
-   var $Expon = array('', '', ''); 
+   var $Mant = array('', '', '');
+   var $Expon = array('', '', '');
 
    function NumToText()
    {
@@ -164,6 +167,6 @@ $convert = new NumToText();
 print $convert->Convert(10);
 // десять
 print $convert->Convert(122223124120);
-// сто двадцать два миллиарда двести двадцать три миллиона сто двадцать четыре тысячи сто двадцать 
+// сто двадцать два миллиарда двести двадцать три миллиона сто двадцать четыре тысячи сто двадцать
 
 ?>
