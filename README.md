@@ -1,6 +1,6 @@
 # NumToText
 
-Number convert to string
+Php library for convert convert number to string on russian language.
 
 ### Install ###
 ```bash
